@@ -1,0 +1,16 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Local runtime output
+**/switcher.log
+**/test-result.txt
+**/*.pdb
+
+# Local publishing/staging directories
+publish-stage*/
+豆包语音切换器/
+
+# Local handoff notes and machine-specific files
+项目交接与技术复盘_致Codex.md
+.tools/

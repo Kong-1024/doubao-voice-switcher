@@ -62,9 +62,9 @@ dotnet publish .\DoubaoVoiceSwitcher\DoubaoVoiceSwitcher.csproj `
 配置文件为程序目录下的 `settings.json`：
 
 - `activationDelayMs`：输入法激活等待上限，默认 1500ms；
-- `commitDelayMs`：停止后等待文字提交，默认 1000ms；
+- `commitDelayMs`：停止后等待文字提交，默认 300ms；
 - `maxListeningSeconds`：最长连续录音时间，默认 60 秒；
-- `playSoundFeedback`：是否播放开始/结束提示音；
+- `playSoundFeedback`：是否播放开始/结束提示音，默认关闭；
 - `cancelOnEsc`：是否允许 Esc 取消。
 
 ## 注意事项

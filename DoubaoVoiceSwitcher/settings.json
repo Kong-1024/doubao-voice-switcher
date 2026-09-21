@@ -1,8 +1,8 @@
 {
   "activationDelayMs": 1500,
-  "commitDelayMs": 1000,
+  "commitDelayMs": 300,
   "restoreWhenAnotherKeyStopsVoice": true,
   "maxListeningSeconds": 60,
-  "playSoundFeedback": true,
+  "playSoundFeedback": false,
   "cancelOnEsc": true
 }

@@ -5,10 +5,10 @@ namespace DoubaoVoiceSwitcher;
 internal sealed class AppConfig
 {
     public int ActivationDelayMs { get; init; } = 1500;
-    public int CommitDelayMs { get; init; } = 1000;
+    public int CommitDelayMs { get; init; } = 300;
     public bool RestoreWhenAnotherKeyStopsVoice { get; init; } = true;
     public int MaxListeningSeconds { get; init; } = 60;
-    public bool PlaySoundFeedback { get; init; } = true;
+    public bool PlaySoundFeedback { get; init; } = false;
     public bool CancelOnEsc { get; init; } = true;
 
     public static AppConfig Load()

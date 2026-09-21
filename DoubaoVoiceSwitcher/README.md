@@ -21,10 +21,10 @@
 ## 配置（settings.json）
 
 - `activationDelayMs`：等待输入法切换完成的最长时间，默认 1500 毫秒。
-- `commitDelayMs`：语音条关闭后等待文字提交的时间，默认 1000 毫秒。
+- `commitDelayMs`：语音条关闭后等待文字提交的时间，默认 300 毫秒。
 - `restoreWhenAnotherKeyStopsVoice`：豆包因其他操作自行关闭语音条时，自动恢复微信输入法。
 - `maxListeningSeconds`：最长连续录音时长，默认 60 秒。
-- `playSoundFeedback`：语音开始和结束时播放短提示音。
+- `playSoundFeedback`：语音开始和结束时是否播放短提示音，默认关闭。
 - `cancelOnEsc`：允许 Esc 取消语音。
 
 ## 自检
